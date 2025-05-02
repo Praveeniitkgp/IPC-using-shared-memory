@@ -1,7 +1,7 @@
 
 Lightweight Custom Discovery Protocol (LCDP): Custom network protocol using raw sockets.
 
-Overview
+Overview:
 Leader process (L) and n followers (F_1, ..., F_n) use shared memory to compute sums of random integers (leader: 1-99, followers: 1-9). Terminates when a sum repeats.
 Files
 
@@ -9,8 +9,8 @@ leader.c: Leader process.
 follower.c: Follower processes.
 README.md: This file.
 
-Build
-gcc -o leader leader.c
+Build:
+gcc -o leader leader.c,
 gcc -o follower follower.c
 
 Run
